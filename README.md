@@ -13,14 +13,6 @@ Single Page Application для управления контактами с по
 - Node.js 18+ и npm
 - Современный браузер с поддержкой ES6+
 
-### Установка и запуск
-
-1. **Клонируйте репозиторий:**
-```bash
-git clone <repository-url>
-cd test
-```
-
 2. **Установите зависимости:**
 ```bash
 npm install
