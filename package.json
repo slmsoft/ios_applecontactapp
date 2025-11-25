@@ -60,6 +60,6 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
-            "server": "json-server --watch db.json --port 3002"
+            "server": "json-server --watch mock/contacts.json --port 3002"
       }
 }
