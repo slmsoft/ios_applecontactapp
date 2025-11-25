@@ -2,7 +2,7 @@ import { Contact } from "../types/contact";
 
 // Используйте локальный json-server (по умолчанию http://localhost:3001)
 // Для запуска: npx json-server --watch db.json --port 3001
-const API_BASE_URL = "http://localhost:3001/contacts";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3002/contacts";
 
 export async function fetchContacts(): Promise<Contact[]> {
   const response = await fetch(API_BASE_URL);
